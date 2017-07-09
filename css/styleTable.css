@@ -1,0 +1,20 @@
+#styleTable caption{
+	font-size: 15px;
+}
+#styleTable{
+	width: 800px;
+	text-align: center;
+}
+#styleTable tr{
+	cursor: pointer;
+}
+#styleTable th{
+	background-color: #000006;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+#styleTable td{
+	background-color: red;
+	color: #ffffff;
+	text-transform: capitalize;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" media="all" href="../css/styleTable.css">    	
+</style>
+<title>Ejemplo JD-001 | Jquery - data</title>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		console.log('Loading each-001');
+		$('.datos').click(function(event) {
+			var item = $(this).data('item');
+			console.log(item);
+			alert(item);
+		});
+	})
+</script>
+</head>
+<body>
+	<table id="styleTable">
+		<caption>Table de datos fijos.</caption>
+		<thead>
+			<tr>
+				<th>Nombres</th>
+				<th>Apellido</th>
+				<th>DNI</th>
+				<th>Lugar</th>
+				<th>Edad</th>
+			</tr>
+			
+		</thead>
+		<tbody>
+			<tr class="datos" data-item="20">
+				<td>Pablo</td>
+				<td>Blanco</td>
+				<td>17552345</td>
+				<td>Olivo</td>
+				<td>20</td>
+			</tr>
+			<tr class="datos" data-item="30">
+				<td>Alberto</td>
+				<td>Paco</td>
+				<td>27552345</td>
+				<td>Av. Libertador</td>
+				<td>31</td>
+			</tr>
+			<tr class="datos" data-item="40">
+				<td>Gonzalo</td>
+				<td>Chap</td>
+				<td>07552345</td>
+				<td>San Martin</td>
+				<td>32</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>

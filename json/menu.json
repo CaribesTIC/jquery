@@ -1,0 +1,21 @@
+{
+	"menu": {
+		"earch" : [
+			{
+				"label" : "Recorrer los td",
+				"links" : "each/each001.html",
+				"title" : "Permite recorrer todos los td que entran dentro del tr con la funtion earch de jquery.",
+				"targe" : "_new"
+			}
+		],
+		"data" : [
+			{
+				"label" : "Leer los data del item",
+				"links" : "data/data001.html",
+				"title" : "Permite leer los data-valor configurados dentro del tr para facilitar los elementos. ",
+				"targe" : "_new"
+			}
+		]
+	}
+}
+
